@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { start, dispatch, spawnStateless } = require('nact');
+const { start, dispatch, spawnStateless } = require('../../lib');
 const system = start();
 
 const delay = (time) => new Promise((resolve, reject) => setTimeout(resolve, time));
